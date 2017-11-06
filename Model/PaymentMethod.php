@@ -1,6 +1,6 @@
 <?php
  
-namespace Emipro\Custompayment\Model;
+namespace Emipro\Moneropayment\Model;
 
 class PaymentMethod extends \Magento\Payment\Model\Method\AbstractMethod
 {
@@ -11,11 +11,8 @@ class PaymentMethod extends \Magento\Payment\Model\Method\AbstractMethod
      * @var string
      */
     
-    protected $_code = 'custompayment';
+    protected $_code = 'moneropayment';
     
     protected $_scopeConfig
-    
-    public function __construct(\Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig) {
-        $this->_scopeConfig = $scopeConfig;
-    }
+
 }

@@ -11,7 +11,7 @@ define(
         rendererList.push(
             {
                 type: 'custompayment',
-                component: 'Emipro_Custompayment/js/view/payment/method-renderer/custompayment'
+                component: 'Emipro_Moneropayment/js/view/payment/method-renderer/custompayment'
             }
         );
         return Component.extend({});

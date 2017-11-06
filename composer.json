@@ -23,7 +23,7 @@
                   "registration.php"
                   ],
         "psr-4": {
-            "Emipro\\Custompayment\\": ""
+            "Emipro\\Moneropayment\\": ""
         }
     }
 }

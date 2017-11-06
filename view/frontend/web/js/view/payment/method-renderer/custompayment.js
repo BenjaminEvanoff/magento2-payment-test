@@ -27,7 +27,7 @@ define(
        'use strict';
        return Component.extend({
               defaults: {
-              template: 'Emipro_Custompayment/payment/custompayment'
+              template: 'Emipro_Moneropayment/payment/custompayment'
               },
               afterPlaceOrder: function () {
                                var total = document.getElementsByClassName('amount')[2].innerText; // TODO: use magento tools to get total instead
